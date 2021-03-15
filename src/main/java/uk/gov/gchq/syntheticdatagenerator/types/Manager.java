@@ -23,7 +23,7 @@ import java.util.StringJoiner;
 import static java.util.Objects.requireNonNull;
 
 public class Manager {
-    private UserId uid;
+    private String uid;
     private Manager[] managers;
     private String managerType;
 
@@ -54,11 +54,11 @@ public class Manager {
         return manager;
     }
 
-    public UserId getUid() {
+    public String getUid() {
         return uid;
     }
 
-    public void setUid(final UserId uid) {
+    public void setUid(final String uid) {
         requireNonNull(uid);
         this.uid = uid;
     }
