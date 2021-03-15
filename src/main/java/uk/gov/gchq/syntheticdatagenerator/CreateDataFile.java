@@ -60,9 +60,7 @@ public final class CreateDataFile implements Callable<Boolean> {
             // Need at least one Employee
             Employee firstEmployee = Employee.generate(random);
             Manager[] managers = firstEmployee.getManager();
-            UserId lineManagerUid = managers[0].getUid();
-            lineManagerUid.setId("Bob");
-            managers[0].setUid(lineManagerUid);
+            managers[0].setUid("Bob");
             firstEmployee.setManager(managers);
 
             // Create more employees if needed

@@ -34,7 +34,7 @@ public class Employee implements Serializable {
     private static final int SALARY_BONUS_RANGE = 10_000;
     private static final String TAX_CODE = "11500L";
 
-    private UserId uid;
+    private String uid;
     private String name;
     private String dateOfBirth;
     private PhoneNumber[] contactNumbers;
@@ -78,19 +78,19 @@ public class Employee implements Serializable {
         return employee;
     }
 
-    public static UserId generateUID(final Random random) {
-        return new UserId().id(String.valueOf(random.nextInt(Integer.MAX_VALUE)));
+    public static String generateUID(final Random random) {
+        return String.valueOf(random.nextInt(Integer.MAX_VALUE));
     }
 
     private static String generateTaxCode() {
         return TAX_CODE;
     }
 
-    public UserId getUid() {
+    public String getUid() {
         return uid;
     }
 
-    public void setUid(final UserId uid) {
+    public void setUid(final String uid) {
         this.uid = uid;
     }
 
