@@ -24,6 +24,13 @@
     <artifactId>synthetic-data-generator</artifactId>
     <version>0.0.2</version>
 
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
     <properties>
             <jackson.version>2.10.0</jackson.version>
     </properties>
