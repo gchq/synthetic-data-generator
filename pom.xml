@@ -22,7 +22,7 @@
 
     <groupId>uk.gov.gchq.data-gen</groupId>
     <artifactId>synthetic-data-generator</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <url>https://github.com/gchq/synthetic-data-generator</url>
 
     <licenses>
