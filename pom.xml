@@ -22,9 +22,9 @@
 
     <groupId>uk.gov.gchq.data-gen</groupId>
     <artifactId>synthetic-data-generator</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <url>https://github.com/gchq/synthetic-data-generator</url>
-    <name>${project.groupId}:${project.artifactId}</name>
+    <name>GCHQ Synthetic Data Generator</name>
     <description>A utility application used to generate Avro files of test data</description>
 
     <licenses>
