@@ -28,7 +28,7 @@ public enum Department {
     LONDON_LAB,
     NEW_YORK_LAB,
     FOUNDERS;
-
+    
     public static Department generate(final Random random) {
         return Department.values()[random.nextInt(Department.values().length)];
     }

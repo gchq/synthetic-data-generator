@@ -16,7 +16,7 @@
 
 package uk.gov.gchq.syntheticdatagenerator.types;
 
-import com.github.javafaker.Faker;
+import net.datafaker.Faker;
 
 import java.util.Random;
 import java.util.StringJoiner;
@@ -31,7 +31,7 @@ public class Address {
 
     public static Address generate(final Faker faker, final Random random) {
         Address address = new Address();
-        com.github.javafaker.Address fakeAddress = faker.address();
+        net.datafaker.Address fakeAddress = faker.address();
         address.setStreetAddressNumber(fakeAddress.streetAddressNumber());
         address.setStreetName(fakeAddress.streetName());
         address.setCity(fakeAddress.city());
