@@ -16,7 +16,7 @@
 
 package uk.gov.gchq.syntheticdatagenerator.types;
 
-import com.github.javafaker.Faker;
+import net.datafaker.Faker;
 
 import java.util.Locale;
 import java.util.Random;

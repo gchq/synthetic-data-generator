@@ -86,9 +86,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.github.javafaker</groupId>
-            <artifactId>javafaker</artifactId>
-            <version>1.0.1</version>
+            <groupId>net.datafaker</groupId>
+            <artifactId>datafaker</artifactId>
+            <version>1.1.0</version>
         </dependency>
         <!-- JSON Serialisation/De-serialisation dependencies -->
         <dependency>
