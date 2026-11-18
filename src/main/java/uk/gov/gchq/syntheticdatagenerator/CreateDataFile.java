@@ -21,7 +21,6 @@ import org.slf4j.LoggerFactory;
 import uk.gov.gchq.syntheticdatagenerator.serialise.AvroSerialiser;
 import uk.gov.gchq.syntheticdatagenerator.types.Employee;
 import uk.gov.gchq.syntheticdatagenerator.types.Manager;
-import uk.gov.gchq.syntheticdatagenerator.types.UserId;
 
 import java.io.File;
 import java.io.FileOutputStream;
